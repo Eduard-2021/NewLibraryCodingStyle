@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum StyleСases {
+public enum StyleСases {
     case camelCase
     case snakeCase
     case kebabCase
