@@ -19,7 +19,7 @@ public enum StyleСases {
         }
     }
 
-     init(wrappedValue: String, styleCase: StyleСases) {
+     public init(wrappedValue: String, styleCase: StyleСases) {
         self.decodingString = wrappedValue
         self.styleCase = styleCase
     }
